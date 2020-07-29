@@ -103,10 +103,14 @@
          |     |-qiandao.json
          |
          ---------------
-         |-07|
-         |   |-qiandao.json.01
-         |   |-qiandao.json.02
-         |   |-qiandao.json...
+         |-qiandao|
+         |        |07|-qiandao.json.01
+         |        |  |-qiandao.json.02
+         |        |  |-qiandao.json...
+         |        |
+         |        |08|-qiandao.json.01
+         |        |  |-qiandao.json.02
+         |        |  |-qiandao.json...
 ```
 
 
@@ -125,7 +129,6 @@
   cookie;
   请求协议[填写抓包content-type];
   请求参数[请以k=v方式存放,;分割];
-  是否为真[0(是),1(否)];
-
+  是否为真[0(否),1(是)];
 }
 ```
