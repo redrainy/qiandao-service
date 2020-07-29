@@ -1,5 +1,8 @@
 # 自定义签到服务
 
+### 使用到的两个库
+&nbsp;&nbsp;[UUID](https://github.com/pschlump/uuid) &nbsp;&nbsp;[GoTicker](https://github.com/aWildProgrammer/goticker)
+
 ### 添加接口
 请求链接: `:8088/qiandao/addCheckPoint`
 
