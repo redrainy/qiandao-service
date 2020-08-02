@@ -495,6 +495,7 @@ func QianDaoTask(args interface{}) {
 				fmt.Println("暂未支持此种请求方式")
 			}
 			qcp.IsRequest = 1
+			time.Sleep(1 * time.Second)
 		}
 		tmpQCP = append(tmpQCP, qcp)
 	}
